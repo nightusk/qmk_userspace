@@ -9,11 +9,13 @@
 #define TD_Q    TD(TD_Q_ESC)
 // R2
 #define MT_A    LSFT_T(     KC_A)
+#define TD_H    TD(TD_H_BSPC)
 #define MT_SCLN RSFT_T(     KC_SCLN)
 // R1
 #define MT_Z    LCTL_T(     KC_Z)
 #define MT_X    LGUI_T(     KC_X)
 #define MT_C    LALT_T(     KC_C)
+#define TD_V    TD(TD_V_SPC)
 #define LT_B    LT(_60____, KC_B)
 #define LT_N    LT(_60_s__, KC_N)
 #define MT_M    RCTL_T(     KC_M)
@@ -24,8 +26,8 @@
 #define __QWERT____________________________________ TD_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define __YUIOP____________________________________ KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
 #define __ASDFG____________________________________ MT_A,    KC_S,    KC_D,    KC_F,    KC_G
-#define __HJKL____________________________          KC_H,    KC_J,    KC_K,    KC_L
-#define __ZXCVB____________________________________ MT_Z,    MT_X,    MT_C,    KC_V,    LT_B
+#define __HJKL____________________________          TD_H,    KC_J,    KC_K,    KC_L
+#define __ZXCVB____________________________________ MT_Z,    MT_X,    MT_C,    TD_V,    LT_B
 #define __NM____________                            LT_N,    MT_M
 #define __SCLN_QUOT_____                            MT_SCLN, KC_QUOT
 #define __COMM_DOT__SLSH_________                   MT_COMM, MT_DOT,  LT_SLSH
