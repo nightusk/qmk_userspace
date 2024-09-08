@@ -1,9 +1,12 @@
 #pragma once
 
 #include "keymap_japanese.h"
+#include "./tapdance.h"
 
 #define LAYOUT_ortho_3x10_wrapper(...) LAYOUT_ortho_3x10(__VA_ARGS__)
 
+// R3
+#define TD_Q    TD(TD_Q_ESC)
 // R2
 #define MT_A    LSFT_T(     KC_A)
 #define MT_SCLN RSFT_T(     KC_SCLN)
@@ -18,7 +21,7 @@
 #define MT_DOT  RALT_T(     KC_DOT)
 
 // Minimal
-#define __QWERT____________________________________ KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
+#define __QWERT____________________________________ TD_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define __YUIOP____________________________________ KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
 #define __ASDFG____________________________________ MT_A,    KC_S,    KC_D,    KC_F,    KC_G
 #define __HJKL____________________________          KC_H,    KC_J,    KC_K,    KC_L
