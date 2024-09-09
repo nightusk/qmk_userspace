@@ -9,10 +9,10 @@ static td_tap_t tap_state = {
 
 void comm_finished(tap_dance_state_t *state, void *user_data) {
   switch (tap_state.state = cur_dance(state)) {
-    case TD_SINGLE_TAP:  tap_code(KC_COMM);                  break;
+    case TD_SINGLE_TAP:  tap_code(                KC_COMM);  break;
     case TD_SINGLE_HOLD: add_oneshot_mods(MOD_BIT(KC_RGUI)); break;
-    case TD_DOUBLE_TAP:  tap_code(KC_TAB);                   break;
-    case TD_DOUBLE_HOLD: register_code(KC_TAB);              break;
+    case TD_DOUBLE_TAP:  tap_code(                KC_TAB);   break;
+    case TD_DOUBLE_HOLD: register_code(           KC_TAB);   break;
     default:                                                 break;
   }
 }
