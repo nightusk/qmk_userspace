@@ -9,8 +9,8 @@
 #define TD_Q    TD(TD_Q_ESC)
 // R2
 #define MT_A    LSFT_T(     KC_A)
-#define MT_SCLN RSFT_T(     KC_SCLN)
 #define TD_H    TD(         TD_H_BSPC)
+#define TD_SCLN TD(         TD_SCLN_SFT_ENT)
 // R1
 #define MT_Z    LCTL_T(     KC_Z)
 #define MT_X    LGUI_T(     KC_X)
@@ -29,7 +29,7 @@
 #define __HJKL____________________________          TD_H,    KC_J,    KC_K,    KC_L
 #define __ZXCVB____________________________________ MT_Z,    MT_X,    MT_C,    TD_V,    LT_B
 #define __NM____________                            LT_N,    MT_M
-#define __SCLN_QUOT_____                            MT_SCLN, KC_QUOT
+#define __SCLN_QUOT_____                            TD_SCLN, KC_QUOT
 #define __COMM_DOT__SLSH_________                   TD_COMM, MT_DOT,  LT_SLSH
 // 60%
 #define __12345____________________________________ KC_1,    KC_2,    KC_3,    KC_4,    KC_5

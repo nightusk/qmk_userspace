@@ -5,6 +5,7 @@ enum {
   TD_Q_ESC,
   // R2
   TD_H_BSPC,
+  TD_SCLN_SFT_ENT,
   // R1
   TD_V_SPC,
   TD_COMM_GUI_TAB,
@@ -29,6 +30,9 @@ typedef struct {
 extern tap_dance_action_t tap_dance_actions[TD_END];
 
 td_state_t cur_dance(tap_dance_state_t *state);
+// R2
+void scln_finished(tap_dance_state_t *state, void *user_data);
+void scln_reset(tap_dance_state_t *state, void *user_data);
 // R1
 void comm_finished(tap_dance_state_t *state, void *user_data);
 void comm_reset(tap_dance_state_t *state, void *user_data);

@@ -1,4 +1,5 @@
 SRC += \
+	tapdance/scln.c \
 	tapdance/comm.c \
 	nightusk.c
 
