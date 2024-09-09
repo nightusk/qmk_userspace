@@ -19,7 +19,7 @@
 #define LT_B    LT(_60____, KC_B)
 #define LT_N    LT(_60_s__, KC_N)
 #define MT_M    RCTL_T(     KC_M)
-#define MT_COMM RGUI_T(     KC_COMM)
+#define TD_COMM TD(TD_COMM_GUI_TAB)
 #define MT_DOT  RALT_T(     KC_DOT)
 
 // Minimal
@@ -30,7 +30,7 @@
 #define __ZXCVB____________________________________ MT_Z,    MT_X,    MT_C,    TD_V,    LT_B
 #define __NM____________                            LT_N,    MT_M
 #define __SCLN_QUOT_____                            MT_SCLN, KC_QUOT
-#define __COMM_DOT__SLSH_________                   MT_COMM, MT_DOT,  LT_SLSH
+#define __COMM_DOT__SLSH_________                   TD_COMM, MT_DOT,  LT_SLSH
 // 60%
 #define __12345____________________________________ KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define __67890____________________________________ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
