@@ -9,17 +9,17 @@
 #define TD_Q    TD(TD_Q_ESC)
 // R2
 #define MT_A    LSFT_T(     KC_A)
-#define TD_H    TD(TD_H_BSPC)
 #define MT_SCLN RSFT_T(     KC_SCLN)
+#define TD_H    TD(         TD_H_BSPC)
 // R1
 #define MT_Z    LCTL_T(     KC_Z)
 #define MT_X    LGUI_T(     KC_X)
 #define MT_C    LALT_T(     KC_C)
-#define TD_V    TD(TD_V_SPC)
+#define TD_V    TD(         TD_V_SPC)
 #define LT_B    LT(_60____, KC_B)
 #define LT_N    LT(_60_s__, KC_N)
 #define MT_M    RCTL_T(     KC_M)
-#define TD_COMM TD(TD_COMM_GUI_TAB)
+#define TD_COMM TD(         TD_COMM_GUI_TAB)
 #define MT_DOT  RALT_T(     KC_DOT)
 
 // Minimal
