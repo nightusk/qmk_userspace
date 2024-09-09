@@ -13,7 +13,7 @@
 #define TD_SCLN TD(         TD_SCLN_SFT_ENT)
 // R1
 #define MT_Z    LCTL_T(     KC_Z)
-#define MT_X    LGUI_T(     KC_X)
+#define TD_X    TD(         TD_X_GUI_DEL)
 #define MT_C    LALT_T(     KC_C)
 #define TD_V    TD(         TD_V_SPC)
 #define LT_B    LT(_60____, KC_B)
@@ -27,7 +27,7 @@
 #define __YUIOP____________________________________ KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
 #define __ASDFG____________________________________ MT_A,    KC_S,    KC_D,    KC_F,    KC_G
 #define __HJKL____________________________          TD_H,    KC_J,    KC_K,    KC_L
-#define __ZXCVB____________________________________ MT_Z,    MT_X,    MT_C,    TD_V,    LT_B
+#define __ZXCVB____________________________________ MT_Z,    TD_X,    MT_C,    TD_V,    LT_B
 #define __NM____________                            LT_N,    MT_M
 #define __SCLN_QUOT_____                            TD_SCLN, KC_QUOT
 #define __COMM_DOT__SLSH_________                   TD_COMM, MT_DOT,  LT_SLSH

@@ -9,6 +9,7 @@ tap_dance_action_t tap_dance_actions[TD_END] = {
   [TD_H_BSPC]       = ACTION_TAP_DANCE_DOUBLE(KC_H, KC_BSPC),
   [TD_SCLN_SFT_ENT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, scln_finished, scln_reset),
   // R1
+  [TD_X_GUI_DEL]    = ACTION_TAP_DANCE_FN_ADVANCED(NULL, x_finished, x_reset),
   [TD_V_SPC]        = ACTION_TAP_DANCE_DOUBLE(KC_V, KC_SPC),
   [TD_COMM_GUI_TAB] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, comm_finished, comm_reset),
 };

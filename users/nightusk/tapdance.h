@@ -7,6 +7,7 @@ enum {
   TD_H_BSPC,
   TD_SCLN_SFT_ENT,
   // R1
+  TD_X_GUI_DEL,
   TD_V_SPC,
   TD_COMM_GUI_TAB,
   // END
@@ -34,5 +35,7 @@ td_state_t cur_dance(tap_dance_state_t *state);
 void scln_finished(tap_dance_state_t *state, void *user_data);
 void scln_reset(tap_dance_state_t *state, void *user_data);
 // R1
+void x_finished(tap_dance_state_t *state, void *user_data);
+void x_reset(tap_dance_state_t *state, void *user_data);
 void comm_finished(tap_dance_state_t *state, void *user_data);
 void comm_reset(tap_dance_state_t *state, void *user_data);
