@@ -21,6 +21,7 @@
 #define MT_M    RCTL_T(     KC_M)
 #define TD_COMM TD(         TD_COMM_GUI_TAB)
 #define MT_DOT  RALT_T(     KC_DOT)
+#define TD_SLSH TD(         TD_SLSH_LT_LT)
 
 // Minimal
 #define __QWERT____________________________________ TD_Q,    KC_W,    KC_E,    KC_R,    KC_T
@@ -30,7 +31,7 @@
 #define __ZXCVB____________________________________ MT_Z,    TD_X,    MT_C,    TD_V,    LT_B
 #define __NM____________                            LT_N,    MT_M
 #define __SCLN_QUOT_____                            TD_SCLN, KC_QUOT
-#define __COMM_DOT__SLSH_________                   TD_COMM, MT_DOT,  LT_SLSH
+#define __COMM_DOT__SLSH_________                   TD_COMM, MT_DOT,  TD_SLSH
 // 60%
 #define __12345____________________________________ KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define __67890____________________________________ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
@@ -41,9 +42,25 @@
 #define __67890_shifted____________________________ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 #define __UNDS_PLUS_____                            KC_UNDS, KC_PLUS
 #define __LCBR_RCBR_PIPE_________                   KC_LCBR, KC_RCBR, KC_PIPE
+// 75%
+#define __Fn_block1_______________________          KC_F1,   KC_F2,   KC_F3,   KC_F4
+#define __Fn_block2_______________________          KC_F5,   KC_F6,   KC_F7,   KC_F8
+#define __Fn_block3_______________________          KC_F9,   KC_F10,  KC_F11,  KC_F12
+#define __NAV_____________________________          KC_HOME, KC_PGDN, KC_PGUP, KC_END
+#define __ARROW___________________________          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+// Num pad
+#define __Np_block1______________                   KC_P1,   KC_P2,   KC_P3
+#define __Np_block2______________                   KC_P8,   KC_P7,   KC_P6
+#define __Np_block3______________                   KC_P7,   KC_P8,   KC_P9
+// Mouse
+#define __MOUSE_MOV_______________________          MS_LEFT, MS_DOWN, MS_UP,   MS_RGHT
+#define __MOUSE_BTN_____                            MS_BTN1, MS_BTN2
+#define __MOUSE_WHL_______________________          MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR
 
 enum layers {
   _QWERTY,
   _60____,
   _60_s__,
+  _75____,
+  _NUM_MS,
 };

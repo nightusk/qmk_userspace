@@ -20,4 +20,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     __Fn_block2_______________________, _______, KC_TILD, __UNDS_PLUS_____, JP_PIPE, KC_DQUO,
     __Fn_block1_______________________, _______, _______, __LCBR_RCBR_PIPE_________, JP_UNDS
   ),
+  [_75____] = LAYOUT_ortho_3x10_wrapper(
+    __Fn_block3_______________________, KC_PAUS, _______, _______, _______, _______, _______,
+    __Fn_block2_______________________, KC_SCRL, __ARROW___________________________, _______,
+    __Fn_block1_______________________, KC_PSCR, __NAV_____________________________, _______
+  ),
+  [_NUM_MS] = LAYOUT_ortho_3x10_wrapper(
+    KC_ESC , __Np_block3______________, KC_ENT,  _______, __MOUSE_BTN_____, _______, QK_BOOT,
+    KC_PDOT, __Np_block2______________, KC_PEQL, __MOUSE_MOV_______________________, _______,
+    KC_P0,   __Np_block1______________, KC_PPLS, __MOUSE_WHL_______________________, _______
+  ),
 };

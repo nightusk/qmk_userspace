@@ -10,6 +10,7 @@ enum {
   TD_X_GUI_DEL,
   TD_V_SPC,
   TD_COMM_GUI_TAB,
+  TD_SLSH_LT_LT,
   // END
   TD_END,
 };
@@ -39,3 +40,5 @@ void x_finished(tap_dance_state_t *state, void *user_data);
 void x_reset(tap_dance_state_t *state, void *user_data);
 void comm_finished(tap_dance_state_t *state, void *user_data);
 void comm_reset(tap_dance_state_t *state, void *user_data);
+void slsh_finished(tap_dance_state_t *state, void *user_data);
+void slsh_reset(tap_dance_state_t *state, void *user_data);

@@ -12,6 +12,7 @@ tap_dance_action_t tap_dance_actions[TD_END] = {
   [TD_X_GUI_DEL]    = ACTION_TAP_DANCE_FN_ADVANCED(NULL, x_finished, x_reset),
   [TD_V_SPC]        = ACTION_TAP_DANCE_DOUBLE(KC_V, KC_SPC),
   [TD_COMM_GUI_TAB] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, comm_finished, comm_reset),
+  [TD_SLSH_LT_LT]   = ACTION_TAP_DANCE_FN_ADVANCED(NULL, slsh_finished, slsh_reset),
 };
 
 td_state_t cur_dance(tap_dance_state_t *state) {
