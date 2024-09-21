@@ -5,6 +5,9 @@
 
 #define LAYOUT_ortho_3x10_wrapper(...) LAYOUT_ortho_3x10(__VA_ARGS__)
 
+// Fn
+#define MT_F1   LCTL_T(     KC_F1)
+#define MT_F5   LSFT_T(     KC_F5)
 // R3
 #define TD_Q    TD(TD_Q_ESC)
 // R2
@@ -43,8 +46,8 @@
 #define __UNDS_PLUS_____                            KC_UNDS, KC_PLUS
 #define __LCBR_RCBR_PIPE_________                   KC_LCBR, KC_RCBR, KC_PIPE
 // 75%
-#define __Fn_block1_______________________          KC_F1,   KC_F2,   KC_F3,   KC_F4
-#define __Fn_block2_______________________          KC_F5,   KC_F6,   KC_F7,   KC_F8
+#define __Fn_block1_______________________          MT_F1,   KC_F2,   KC_F3,   KC_F4
+#define __Fn_block2_______________________          MT_F5,   KC_F6,   KC_F7,   KC_F8
 #define __Fn_block3_______________________          KC_F9,   KC_F10,  KC_F11,  KC_F12
 #define __NAV_____________________________          KC_HOME, KC_PGDN, KC_PGUP, KC_END
 #define __ARROW___________________________          KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
