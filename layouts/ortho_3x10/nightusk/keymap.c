@@ -31,3 +31,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_P0,   __Np_block1______________, KC_PPLS, __MOUSE_WHL_______________________, _______
   ),
 };
+
+const uint16_t PROGMEM cb_mhen[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM cb_henk[] = {KC_K, KC_L, COMBO_END};
+combo_t key_combos[] = {
+   COMBO(cb_mhen, JP_MHEN),
+   COMBO(cb_henk, JP_HENK),
+};
