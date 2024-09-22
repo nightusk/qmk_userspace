@@ -4,6 +4,8 @@
 #include QMK_KEYBOARD_H
 #include "nightusk.h"
 
+#define LAYOUT_ortho_3x10_wrapper(...) LAYOUT_ortho_3x10(__VA_ARGS__)
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT_ortho_3x10_wrapper(
     __QWERT____________________________________, __YUIOP____________________________________,

@@ -3,8 +3,6 @@
 #include "keymap_japanese.h"
 #include "./tapdance.h"
 
-#define LAYOUT_ortho_3x10_wrapper(...) LAYOUT_ortho_3x10(__VA_ARGS__)
-
 // Fn
 #define MT_F1   LCTL_T(     KC_F1)
 #define MT_F5   LSFT_T(     KC_F5)
@@ -25,6 +23,9 @@
 #define TD_COMM TD(         TD_COMM_GUI_TAB)
 #define MT_DOT  RALT_T(     KC_DOT)
 #define TD_SLSH TD(         TD_SLSH_LT_LT)
+// MOD
+#define LT_MHEN LT(_60____, JP_MHEN)
+#define LT_HENK LT(_60_s__, JP_HENK)
 
 // Minimal
 #define __QWERT____________________________________ TD_Q,    KC_W,    KC_E,    KC_R,    KC_T
